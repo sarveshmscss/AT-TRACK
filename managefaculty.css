@@ -1,0 +1,141 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background:#FFEED6;
+}
+nav{
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  width: 90px;
+  /* width: 280px; */
+  background: #fff;
+  overflow: hidden;
+  transition: 1s;
+}
+nav:hover{
+  width: 280px;
+  transition: 1s;
+}
+.logo{
+  text-align: center;
+  display: flex;
+  margin: 10px 0 0 10px;
+  padding-bottom: 3rem;
+}
+
+.logo img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.logo span{
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+a{
+  position: relative;
+  width: 280px;
+  font-size: 14px;
+  color: rgb(85, 83, 83);
+  display: table;
+  padding: 10px;
+}
+nav .fas{
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item{
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
+a:hover{
+  background: #eee;
+}
+a:hover i{
+  color: blue;
+  transition: 0.5s;
+}
+.logout{
+  position: absolute;
+  bottom: 0;
+}
+.add{
+  margin-left:120px;
+}
+.modal-content{
+  margin-left:120px;
+}
+table {
+  border-collapse: collapse;
+    
+    margin-left: 120px;
+
+    padding: 0;
+    width: 90%;
+    table-layout: fixed;
+    color: var(--text);
+    border-spacing: 0 15px;
+  }
+  table tr {
+    background-color:transparent;
+    border: 1px solid blue!important;
+    padding: .35em;
+    margin-bottom: 10px;
+  }
+  table th,
+  table td {
+    padding: 1.5em;
+    text-align: left;
+  
+  }
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  .tab-img{
+    display: inline-block;
+      width: 30px;
+      vertical-align: middle;
+      border: 1px solid #000;
+      border-radius: 18px;
+      margin-right: 8px;
+  }
+  .ticon{
+    padding: 5px;
+    background: var(--gray);
+    border-radius: 4px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+  }
+  .table{
+    margin-top: -600px;
+  }
+  .head{
+    position: absolute;
+    top:50px;
+    left:650px;
+  }
+  .addFacultyBtn{
+    margin-right: 30px;
+  }

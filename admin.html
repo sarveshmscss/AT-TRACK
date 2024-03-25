@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Admin</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body data-role="admin">
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#" class="logo">
+                        <img src="logo.png">
+                        <span class="nav-item">Admin</span>
+                    </a></li>
+                <li><a href="#">
+                        <i class="fas fa-menorah"></i>
+                        <span class="nav-item">Dashboard</span>
+                    </a></li>
+                <li><a href="message.html">
+                        <i class="fas fa-comment"></i>
+                        <span class="nav-item">Message</span>
+                    </a></li>
+                <li><a href="analysis.html">
+                        <i class="fas fa-database"></i>
+                        <span class="nav-item"> Attendance Report</span>
+                    </a></li>
+                <li><a href="report.html">
+                        <i class="fas fa-chart-bar"></i>
+                        <span class="nav-item">Attendance Calculator</span>
+                    </a></li>
+                <li><a href="login.php" class="logout">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span class="nav-item">Log out
+                        </span>
+                    </a></li>
+            </ul>
+        </nav>
+
+        <section class="main">
+            <div class="main-top">
+                <h1>AT-TRACK</h1>
+                <i class="fas fa-user-cog"></i>
+            </div>
+            <div class="users">
+                <div class="card">
+                    <img src="faculty.png">
+                    <h4> FACULTY</h4>
+                    <div class="per">
+                    </div>
+                    <button><a href="managefaculty.html"><b>MANAGE</b></a></button>
+                </div>
+                <div class="card">
+                    <img src="student.png">
+                    <h4>STUDENT</h4>
+                    <div class="per">
+                    </div>
+                    <button><a href="managestudent.html"><b>MANAGE</b></a></button>
+                </div>
+            </div>
+
+            <section class="attendance">
+                <div class="profile-list">
+                    <h1>PROFILE LIST</h1>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>DESIGNATION</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Faculty</td>
+                                <td> <a href="viewfaculty.html"><button>View</button></a></td>
+                            </tr>
+                            <tr>
+                                <td>Student</td>
+                                <td> <a href="studentview.html"><button>View</button></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+        </section>
+    </div>
+
+</body>
+
+</html>

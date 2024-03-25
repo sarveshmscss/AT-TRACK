@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mark-Attendance</title>
+  <link rel="stylesheet" href="markattendance.css" />
+  <!-- Font Awesome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#" class="logo">
+          <img src="logo.png">
+          <span class="nav-item">FACULTY</span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-menorah"></i>
+          <span class="nav-item">Dashboard</span>
+        </a></li>
+        <li><a href="message.html">
+          <i class="fas fa-comment"></i>
+          <span class="nav-item">Message</span>
+        </a></li>
+        <li><a href="login.html" class="logout">
+          <i class="fas fa-sign-out-alt"></i>
+          <span class="nav-item">Log out
+          </span>
+        </a></li>
+      </ul>
+    </nav>
+  </nav>
+  <div class="container1">
+    <div class="faculty-page">
+      <div class="attendance">
+        <h2>Mark Attendance</h2>
+        <form action="present_absent.html" method="post">
+          <input type="text" name="class_id" placeholder="Class ID">
+          <input type="text" name="subject_code" placeholder="Subject Code">
+          <button type="submit"><a href="present_absent.php"> Attendance</a></button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>
