@@ -49,7 +49,7 @@ Access the system via localhost.
 🛠️ Integration with biometric devices
 🗣️ In-app messaging system for communication between students, faculty, and admins
 🏆 Credits
-This project was developed by Sarvesh K under the guidance of Dr. S. Kanchana, PSG College of Arts & Science, as part of a minor project for the Master of Science in Software Systems.
+This project was developed by Sarvesh K, PSG College of Arts & Science, as part of a minor project for the Master of Science in Software Systems.
 
 📞 Contact
 For more information or queries, feel free to reach out:
