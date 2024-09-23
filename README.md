@@ -38,7 +38,7 @@ Steps
 Clone this repository:
 bash
 Copy code
-git clone https://github.com/yourusername/at-track.git
+git clone https://github.com/sarveshmscss/AT-TRACK.git
 Start your local server.
 Create a MySQL database and import the provided .sql file.
 Configure your database connection in config.php.
